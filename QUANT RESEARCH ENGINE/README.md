@@ -1,4 +1,4 @@
-# Gemscap Quant Research Engine
+# Quant Research Engine
 
 A professional Equity Trading Quant Dashboard built for:
 
@@ -14,3 +14,4 @@ Run:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
