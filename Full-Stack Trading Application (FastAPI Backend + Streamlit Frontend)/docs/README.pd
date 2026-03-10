@@ -1,0 +1,84 @@
+# 📊 Full-Stack Trading Application
+
+<div align="center">
+
+![Trading Platform](https://img.shields.io/badge/Trading-Full%20Stack%20Application-blue?style=for-the-badge&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+**A comprehensive real-time equity trading platform for Indian markets with FastAPI backend and Streamlit frontend. Features technical analysis, portfolio tracking, and stock screening capabilities.**
+
+[Features](#features) • [Tech Stack](#tech-stack) • [Quick Start](#quick-start) • [API Documentation](#api-documentation) • [Screenshots](#screenshots) • [Contributing](#contributing)
+
+</div>
+
+---
+
+## ✨ Features
+
+### 🚀 **FastAPI Backend**
+- **Real-time Stock Quotes** - Live NSE stock prices via Yahoo Finance
+- **Technical Indicators** - RSI, Moving Averages (SMA 20/50), Bollinger Bands
+- **Stock Screeners** - Momentum and oversold stock detection algorithms
+- **Portfolio Analytics** - P&L calculation, returns tracking, performance metrics
+- **Interactive API Docs** - Auto-generated Swagger UI and ReDoc
+- **RESTful Architecture** - Well-structured endpoints with proper error handling
+
+### 📈 **Streamlit Frontend**
+- **Multi-stock Comparison** - Track multiple stocks simultaneously
+- **Interactive Charts** - Professional-grade Plotly visualizations
+- **Portfolio Tracker** - Real-time P&L monitoring with metrics
+- **Market Overview** - Key metrics and price movements at a glance
+- **API Integration Demo** - Test endpoints directly from the UI
+- **Responsive Design** - Works seamlessly on different screen sizes
+
+### 📊 **Technical Analysis Capabilities**
+- RSI (Relative Strength Index) with customizable periods
+- Simple Moving Averages (SMA 20, SMA 50)
+- Bollinger Bands with upper/lower channels
+- Volume analysis and trend detection
+- Momentum scoring algorithm
+- Oversold/Overbought condition detection
+- Custom technical signals generation
+
+### 💼 **Portfolio Management**
+- Real-time portfolio valuation
+- Profit/Loss tracking (absolute and percentage)
+- Position-wise performance metrics
+- Portfolio diversification view
+- Historical returns calculation
+- Best/worst performer identification
+
+---
+
+## 🛠️ Tech Stack
+
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| **Backend Framework** | FastAPI | High-performance API development |
+| **ASGI Server** | Uvicorn | Lightning-fast ASGI server |
+| **Frontend Framework** | Streamlit | Rapid data application development |
+| **Data Source** | Yahoo Finance (yfinance) | Real-time and historical market data |
+| **Data Processing** | Pandas, NumPy | Data manipulation and analysis |
+| **Visualization** | Plotly | Interactive financial charts |
+| **HTTP Client** | Requests, Aiohttp | API communication |
+| **Environment** | Python 3.8+ | Core programming language |
+
+---
+
+## 🚀 Quick Start Guide
+
+### Prerequisites
+- Python 3.8 or higher
+- pip package manager
+- Virtual environment (recommended)
+- Git (for cloning)
+
+### Step-by-Step Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/full-stack-trading-application.git
+cd full-stack-trading-application
