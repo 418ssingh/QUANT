@@ -3,38 +3,34 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.25+-red.svg)
 ![License](https://img.shields.io/badge/license-Research%20Only-yellow.svg)
 
-QUANT - Quantitative Trading Platform
-A full-stack quantitative trading platform combining a FastAPI backend with an interactive Streamlit frontend, featuring a dedicated Quant Research Engine for strategy development, backtesting, and analysis.
+# QUANT - Quantitative Trading Platform
 
-✨ Features
-📈 Quant Research Engine
-Strategy backtesting framework
+A full-stack quantitative trading platform combining a **FastAPI backend** with an interactive **Streamlit frontend**, featuring a dedicated **Quant Research Engine** for strategy development, backtesting, and analysis.
 
-Performance metrics (Sharpe ratio, drawdown, win rate, profit factor)
+---
 
-Multi-timeframe analysis support
+## ✨ Features
 
-Swing structure detection
+### 📈 Quant Research Engine
+- Strategy backtesting framework
+- Performance metrics (Sharpe ratio, drawdown, win rate, profit factor)
+- Multi-timeframe analysis support
+- Swing structure detection
+- Machine learning integration for probability modeling
 
-Machine learning integration for probability modeling
+### ⚡ FastAPI Backend
+- RESTful API for trading operations
+- Real-time and historical market data endpoints
+- Strategy execution and management
+- Request validation and error handling
 
-⚡ FastAPI Backend
-RESTful API for trading operations
+### 🎨 Streamlit Frontend
+- Interactive dashboard for strategy monitoring
+- Real-time performance visualization
+- Backtest result explorer
+- Trade execution interface
 
-Real-time and historical market data endpoints
-
-Strategy execution and management
-
-Request validation and error handling
-
-🎨 Streamlit Frontend
-Interactive dashboard for strategy monitoring
-
-Real-time performance visualization
-
-Backtest result explorer
-
-Trade execution interface
+---
 
 ## 🏗️ Project Structure
 QUANT/
@@ -53,15 +49,19 @@ QUANT/
 │ └── metrics/ # Performance calculations
 └── tests/ # Unit and integration tests
 
-📋 Prerequisites
-Python 3.9 or higher
+---
 
-pip package manager
+## 📋 Prerequisites
 
-Git (optional)
+- Python 3.9 or higher
+- pip package manager
+- Git (optional)
 
-🔧 Installation
-bash
+---
+
+## 🔧 Installation
+
+```bash
 # Clone the repository
 git clone https://github.com/418ssingh/QUANT.git
 cd QUANT
@@ -166,6 +166,10 @@ GitHub: @418ssingh
 
 Email: 418ssingh@gmail.com
 
+🙏 Acknowledgments
+Rohan Kolarkar (R-Quants) for guidance and project vision
+
 The quantitative trading community for inspiration
 
-⚠️ Disclaimer: This platform is designed for research and educational purposes. It is not intended for live trading without thorough validation and proper risk management.
+⚠️ Disclaimer
+This platform is designed for research and educational purposes. It is not intended for live trading without thorough validation and proper risk management
