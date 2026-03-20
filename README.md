@@ -31,7 +31,7 @@ A full-stack quantitative trading platform combining a **FastAPI backend** with 
 - Trade execution interface
 
 ---
-
+```
 ## 🏗️ Project Structure
 QUANT/
 ├── Full-Stack Trading Application (FastAPI Backend + Streamlit Frontend)/
@@ -48,7 +48,7 @@ QUANT/
 │ ├── data/ # Data handling modules
 │ └── metrics/ # Performance calculations
 └── tests/ # Unit and integration tests
-
+```
 text
 
 ---
