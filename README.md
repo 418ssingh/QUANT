@@ -37,22 +37,21 @@ Backtest result explorer
 Trade execution interface
 
 ## 🏗️ Project Structure
-
 QUANT/
 ├── Full-Stack Trading Application (FastAPI Backend + Streamlit Frontend)/
-│   ├── backend/                 # FastAPI application
-│   │   ├── main.py              # API entry point
-│   │   ├── routes/              # API endpoints
-│   │   └── models/              # Pydantic models
-│   ├── frontend/                # Streamlit dashboard
-│   │   └── app.py               # UI application
-│   └── shared/                  # Shared utilities
+│ ├── backend/ # FastAPI application
+│ │ ├── main.py # API entry point
+│ │ ├── routes/ # API endpoints
+│ │ └── models/ # Pydantic models
+│ ├── frontend/ # Streamlit dashboard
+│ │ └── app.py # UI application
+│ └── shared/ # Shared utilities
 ├── QUANT RESEARCH ENGINE/
-│   ├── backtest/                # Backtesting engine
-│   ├── strategies/              # Strategy implementations
-│   ├── data/                    # Data handling modules
-│   └── metrics/                 # Performance calculations
-└── tests/                       # Unit and integration tests
+│ ├── backtest/ # Backtesting engine
+│ ├── strategies/ # Strategy implementations
+│ ├── data/ # Data handling modules
+│ └── metrics/ # Performance calculations
+└── tests/ # Unit and integration tests
 
 📋 Prerequisites
 Python 3.9 or higher
