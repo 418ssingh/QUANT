@@ -49,8 +49,6 @@ QUANT/
 │ └── metrics/ # Performance calculations
 └── tests/ # Unit and integration tests
 ```
-text
-
 ---
 
 ## 📋 Prerequisites
