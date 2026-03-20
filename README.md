@@ -49,6 +49,8 @@ QUANT/
 │ └── metrics/ # Performance calculations
 └── tests/ # Unit and integration tests
 
+text
+
 ---
 
 ## 📋 Prerequisites
@@ -166,10 +168,7 @@ GitHub: @418ssingh
 
 Email: 418ssingh@gmail.com
 
-🙏 Acknowledgments
-Rohan Kolarkar (R-Quants) for guidance and project vision
-
 The quantitative trading community for inspiration
 
 ⚠️ Disclaimer
-This platform is designed for research and educational purposes. It is not intended for live trading without thorough validation and proper risk management
+This platform is designed for research and educational purposes. It is not intended for live trading without thorough validation and proper risk management.
