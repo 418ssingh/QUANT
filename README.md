@@ -55,7 +55,7 @@ QUANT/
 
 - Python 3.9 or higher
 - pip package manager
-- Git (optional)
+- Git (only optional)
 
 ---
 
